@@ -206,12 +206,13 @@ public class Principal {
 		milista.add(new Persona("Alicia"));
 		milista.add(new Persona("Alicia"));
 		milista.add(new Persona("Alicia"));
-
+//Test2
 		Collections.sort(milista, new Comparator<Persona>() {
 
 			public int compare(Persona p1, Persona p2) {
 
 				return p1.getNombre().compareTo(p2.getNombre());
+				//Test3
 			}
 
 		});
